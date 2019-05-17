@@ -17,11 +17,8 @@ collections:
   stories:
     title: Stories
     output: true
-  symptoms:
-    title: Symptoms
-    output: true
-  treatment:
-    title: Therapy
+  depression:
+    title: Depression
     output: true
   uploads:
     title: Uploads
@@ -39,8 +36,7 @@ defaults:
         platform: 
         image: 
         subject:
-        Symptoms: []
-        Therapy: []
+        Depression: []
         
     - scope:
         path: ''
@@ -50,17 +46,35 @@ defaults:
         linkVideo: 
         linkGame:
         people: []
-        Symptoms: []
-        Therapy: []
+        Depression: []
         
     - scope:
         path: ''
         type: people
       values:
+        image: 
+        role: 
         bio:
         social: 
           link:
           site:
-        
+          
+    - scope:
+        path: ''
+        type: organization
+      values:
+        image: 
+        role: 
+        bio:
+        social: 
+          link:
+          site:
+   
+   - scope:
+        path: ''
+        type: depression
+      values:
+        type: [Symptom, Therapy] 
+        description:    
         
         
