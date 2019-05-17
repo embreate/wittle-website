@@ -41,3 +41,24 @@ defaults:
         subject:
         Symptoms: []
         Therapy:[]
+    - scope:
+        path: ''
+        type: stories
+      values:
+        description:
+        linkVideo: 
+        linkGame:
+        people: []
+        Symptoms: []
+        Therapy:[]
+    - scope:
+        path: ''
+        type: people
+      values:
+        bio:
+        social: {
+            link:
+            site:
+        }
+        
+        
