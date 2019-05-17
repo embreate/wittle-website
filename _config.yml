@@ -27,37 +27,32 @@ collections:
     title: Uploads
     output: true
 defaults:
-    - scope:
-        path: ''
-        type: media
-      values:
-        shortDescription:
-        relationDepression:
-        linkPlay:
-        linkClip:
-        mediaType: 
-        platform: 
-        image: 
-        subject:
-        Symptoms: []
-        Therapy: []
-        
-    - scope:
-        path: ''
-        type: stories
-      values:
-        description:
-        linkVideo: 
-        linkGame:
-        people: []
-        Symptoms: []
-        Therapy: []
-        
-    - scope:
-        path: ''
-        type: people
-      values:
-        bio:
-        
-        
-        
+- scope:
+    path: ''
+    type: media
+  values:
+    shortDescription: 
+    relationDepression: 
+    linkPlay: 
+    linkClip: 
+    mediaType: 
+    platform: 
+    image: 
+    subject: 
+    Symptoms: []
+    Therapy: []
+- scope:
+    path: ''
+    type: stories
+  values:
+    description: 
+    linkVideo: 
+    linkGame: 
+    people: []
+    Symptoms: []
+    Therapy: []
+- scope:
+    path: ''
+    type: people
+  values:
+    bio: 
