@@ -24,13 +24,13 @@ collections:
     title: Uploads
     output: true
 defaults:
-    - scope:
-        path: ''
-        type: media
-      values:
-        link:
-        mediaType: 
-        platform: 
-        image: 
-        subject:
-        Symptoms: []
+- scope:
+    path: ''
+    type: media
+  values:
+    link: 
+    mediaType: 
+    platform: 
+    image: 
+    subject: 
+    Symptoms: []
