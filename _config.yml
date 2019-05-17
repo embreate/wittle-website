@@ -28,9 +28,13 @@ defaults:
         path: ''
         type: media
       values:
-        link:
+        shortDescription:
+        relationDepression:
+        linkPlay:
+        linkClip:
         mediaType: 
         platform: 
         image: 
         subject:
         Symptoms: []
+        Therapy:[]
