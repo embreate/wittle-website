@@ -18,5 +18,4 @@ collections:
   uploads:
     title: Uploads
     output: true
-
 theme: jekyll-theme-cayman
