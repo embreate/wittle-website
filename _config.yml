@@ -5,6 +5,7 @@ collections:
   media:
     title: Media
     output: true
+    Field name: link
   organization:
     title: Organization
     output: true
