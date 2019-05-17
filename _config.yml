@@ -5,7 +5,6 @@ collections:
   media:
     title: Media
     output: true
-    Field name: link
   organization:
     title: Organization
     output: true
@@ -18,3 +17,16 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+    - scope:
+        path: ''
+        type: media
+      values:
+        organization: 
+        program:
+        link:
+        deadline_date:
+        fundsHigh: 
+        fundsLow:
+        BoostType: []
+        MediaType: []
