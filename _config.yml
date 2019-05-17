@@ -18,7 +18,7 @@ collections:
     title: Symptoms
     output: true
   treatment:
-    title: Treatment
+    title: Therapy
     output: true
   uploads:
     title: Uploads
