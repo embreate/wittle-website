@@ -58,6 +58,10 @@ defaults:
         type: people
       values:
         bio:
+        social: {
+            link:
+            site:
+        }
         
         
         
