@@ -40,7 +40,8 @@ defaults:
         image: 
         subject:
         Symptoms: []
-        Therapy:[]
+        Therapy: []
+        
     - scope:
         path: ''
         type: stories
@@ -50,7 +51,8 @@ defaults:
         linkGame:
         people: []
         Symptoms: []
-        Therapy:[]
+        Therapy: []
+        
     - scope:
         path: ''
         type: people
