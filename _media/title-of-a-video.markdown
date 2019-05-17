@@ -6,5 +6,7 @@ mediaType: video
 platform: YouTube
 image: "/uploads/dodie-clark.JPG"
 subject: Dodie Clark
+Symptoms:
+- Fatigue
 ---
 
