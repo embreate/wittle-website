@@ -20,9 +20,6 @@ collections:
   stories:
     title: Stories
     output: true
-  treatment:
-    title: Therapy
-    output: true
   uploads:
     title: Uploads
     output: true
