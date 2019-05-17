@@ -18,15 +18,15 @@ collections:
     title: Uploads
     output: true
 defaults:
-    - scope:
-        path: ''
-        type: media
-      values:
-        organization: 
-        program:
-        link:
-        deadline_date:
-        fundsHigh: 
-        fundsLow:
-        BoostType: []
-        MediaType: []
+- scope:
+    path: ''
+    type: media
+  values:
+    organization: 
+    program: 
+    link: 
+    deadline_date: 
+    fundsHigh: 
+    fundsLow: 
+    BoostType: []
+    MediaType: []
