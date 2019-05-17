@@ -22,11 +22,9 @@ defaults:
         path: ''
         type: media
       values:
-        organization: 
-        program:
         link:
-        deadline_date:
-        fundsHigh: 
-        fundsLow:
-        BoostType: []
-        MediaType: []
+        mediaType: 
+        platform: 
+        image: 
+        subject:
+        DepressionSymptoms: []
