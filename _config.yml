@@ -2,9 +2,6 @@
 title: Wittle Website
 timezone: UTC
 collections:
-  depressionsymptoms:
-    title: DepressionSymptoms
-    output: true
   media:
     title: Media
     output: true
