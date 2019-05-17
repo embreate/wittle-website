@@ -14,11 +14,14 @@ collections:
   posts:
     title: Posts
     output: true
+  stories:
+    title: Stories
+    output: true
   symptoms:
     title: Symptoms
     output: true
   treatment:
-    title: Treatment
+    title: Therapy
     output: true
   uploads:
     title: Uploads
