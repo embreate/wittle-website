@@ -20,6 +20,11 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: pages
+  values:
+    isInNav: 
+  - scope:
+    path: ''
     type: stories
   values:
     description: 
