@@ -23,7 +23,7 @@ defaults:
     type: pages
   values:
     isInNav: 
-  - scope:
+- scope:
     path: ''
     type: stories
   values:
