@@ -23,10 +23,10 @@ defaults:
     type: stories
   values:
     description: 
-    link: 
-      text:
+    link:
+      text: 
       url: 
-    image:
+    image: 
 - scope:
     path: ''
     type: people
