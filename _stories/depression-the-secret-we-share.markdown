@@ -1,5 +1,5 @@
 ---
-title: Depression, The Secret We Share
+title: 'Depression: The Secret We Share'
 date: 2019-07-22 20:50:00 Z
 description: Writer Andrew Solomon takes you to the darkest corners of his mind during
   the years he battled depression.
