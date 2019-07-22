@@ -6,7 +6,6 @@ image: uploads/template-800x800.jpg
 link:
   link: http://www.embreate.com
   text: Watch Video
-  
 ---
 
 We completed a test of the production experience using a quick interview we completed with Shaun.
