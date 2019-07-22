@@ -5,9 +5,6 @@ collections:
   symptoms:
     title: Depression
     output: true
-  media:
-    title: Media
-    output: true
   organization:
     title: Organization
     output: true
