@@ -2,12 +2,6 @@
 title: Wittle Website
 timezone: UTC
 collections:
-  symptoms:
-    title: Depression
-    output: true
-  media:
-    title: Media
-    output: true
   organization:
     title: Organization
     output: true
@@ -43,11 +37,10 @@ defaults:
     type: stories
   values:
     description: 
-    linkVideo: 
-    linkGame: 
-    people: []
-    Symptoms: []
-    Therapy: []
+    link:
+      link: 
+      linkText: 
+    image:
 - scope:
     path: ''
     type: people
