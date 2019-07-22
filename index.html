@@ -8,12 +8,12 @@ layout: default
           <h2 class="h4 font-weight-lighter mb-4">Depression Experience Project</h2>
           <div class="dropdown mb-4">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
+              Categories
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              {% for category in site.categories %}
+              <a class="dropdown-item" href="#">{{category.name}}</a>
+              {%endfor%}
             </div>
           </div>
         </section>
