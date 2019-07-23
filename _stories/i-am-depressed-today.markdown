@@ -1,6 +1,8 @@
 ---
 title: I Am Depressed Today
 date: 2019-07-22 20:48:00 Z
+categories:
+- Vlog
 description: 'A vlog by Dodie Clark as she walks through a bad day of her depression.
   A discussion with one’s self.  '
 link:
