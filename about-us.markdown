@@ -15,4 +15,4 @@ If you have a story you wish to share, feel free to contact us!
 [Share Your Story](http://embreate.com/wittle-website/share-your-story.html)
 
 **Our Team**
-insert team shot
+![20190510_152619_0_.jpg](/uploads/20190510_152619_0_.jpg)
