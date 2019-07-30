@@ -1,6 +1,8 @@
 ---
 title: The Average Everyday Adventures of Samantha Browne
 date: 2019-07-22 20:51:00 Z
+categories:
+- Game
 description: This is an interactive story about a college student with social anxiety
   who has to make oatmeal in the communal kitchen of her dorm.
 link:
