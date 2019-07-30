@@ -20,6 +20,6 @@ layout: default
 
 ### Ontario
 * All of Ontario
-* * ONTX Ontario Online & Text Crisis Service
-* * Crisis Text (2pm-2am ET): 258258
-* * Crisis Chat (2pm-2am ET): www.dcontario.org/ontx.html
+ * ONTX Ontario Online & Text Crisis Service
+ * Crisis Text (2pm-2am ET): 258258
+ * Crisis Chat (2pm-2am ET): www.dcontario.org/ontx.html
