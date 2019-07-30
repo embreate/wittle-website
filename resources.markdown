@@ -11,12 +11,12 @@ layout: default
 ## Text And Chat Services Available In Canada
 ### Canada
 * All of Canada
-* * Kids Help Phone
-* * * Text Services: Text "CONNECT" to 686868 (also serving adults)
-* * * Chat Services: (6pm-2am ET): kidshelpphone.ca   
-* * * Youthspace.ca (NEED2 Suicide Prevention, Education & Support)
-* * * Youth Text (6pm-12am PT): (778) 783-0177
-* * * Youth Chat (6pm-12am PT): www.youthspace.ca 
+*    Kids Help Phone
+*          Text Services: Text "CONNECT" to 686868 (also serving adults)
+*          Chat Services: (6pm-2am ET): kidshelpphone.ca   
+*          Youthspace.ca (NEED2 Suicide Prevention, Education & Support)
+*          Youth Text (6pm-12am PT): (778) 783-0177
+*          Youth Chat (6pm-12am PT): www.youthspace.ca 
 ### Ontario
 * All of Ontario
 * * ONTX Ontario Online & Text Crisis Service
