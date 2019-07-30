@@ -12,8 +12,7 @@ Our second goal is to take stories told to us by the community and transform the
 
 If you have a story you wish to share, feel free to contact us! 
 
-<<Share Your Story>> [Link] 
-
+[Share Your Story](http://embreate.com/wittle-website/share-your-story.html)
 
 **Our Team**
 insert team shot
