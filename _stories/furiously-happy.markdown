@@ -1,7 +1,7 @@
 ---
-layout: story
 title: Furiously Happy
 date: 2019-07-24 16:33:00 Z
+layout: story
 description: The humorous memoir of Jenny Lawson as she examines her own experience
   with severe depression and a host of other conditions, and explains how it has led
   her to live life to the fullest.
