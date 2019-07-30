@@ -12,7 +12,7 @@ layout: default
 
 [Get Help Now](http://www.crisisservicescanada.ca/en/)
 
-# Text And Chat Services Available In Canada
+# Text And Chat Services
 
 ### Canada
 
