@@ -11,7 +11,7 @@ layout: default
               Categories
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              {% for category in site.categories %}
+              {% for category in site.stories.category %}
               <a class="dropdown-item" href="#">Boom {{category.name}}</a>
               {%endfor%}
             </div>
@@ -24,9 +24,11 @@ layout: default
           <div class="card mb-4">
             <img src="{{ story.image  | absolute_url }}" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">{{story.title}}</h5>
+              <a href="{{story.url}}"><h5 class="card-title">{{story.title}}</h5></a>
               <p class="card-text">{{story.description}}</p>
               <a href="{{story.link.link}}" class="btn btn-primary">{{story.link.text}}</a>
+              <a href="#">Facebook</a>
+              <a href="#">Twitter</a>
             </div>
           </div>
         {%endfor%}
