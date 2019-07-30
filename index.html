@@ -31,7 +31,7 @@ layout: default
   <div class="card mb-4">
     <img src=".{{ story.image }}" class="card-img-top" alt="...">
     <div class="card-body">
-      <a href="{{story.url}}"><h5 class="card-title">{{story.title}}</h5></a>
+      <a href="{{story.url | baseurl }}"><h5 class="card-title">{{story.title}}</h5></a>
       <p class="card-text">{{story.description}}</p>
       <a href="{{story.link.url}}" target="_blank" class="btn btn-primary">{{story.link.text}}</a>
     </div>
