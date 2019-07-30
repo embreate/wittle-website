@@ -1,5 +1,8 @@
 ---
-title: Wittle Website
+title: Wittle
+description: 
+baseurl: http://embreate.com/wittle-website/ 
+url: 
 timezone: UTC
 collections:
   organization:
@@ -27,6 +30,7 @@ defaults:
     path: ''
     type: stories
   values:
+    layout: story
     description: 
     link:
       text: 

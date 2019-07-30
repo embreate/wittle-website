@@ -1,21 +1,23 @@
 <header>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="{{ site.url | absolute_url }}">Wittle</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    
+    <a class="navbar-brand" href="{{ site.url | absolute_url }}">Wittle</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          {% for page in site.pages %}
-          {% if page.isInNav == true %}
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ page.url | absolute_url }}">{{page.title}}<span class="sr-only">(current)</span></a>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
-  </header>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        {% for page in site.pages %}
+        {% if page.isInNav == true %}
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ page.url | absolute_url }}">{{page.title}}<span class="sr-only">(current)</span></a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
