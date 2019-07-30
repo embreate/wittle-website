@@ -1,6 +1,5 @@
 ---
 title: Wittle
-subTitle: Depression Expereince Project
 timezone: UTC
 collections:
   organization:
@@ -42,6 +41,7 @@ defaults:
     social:
       link: 
       site: 
+subTitle: Depression Expereince Project
 description: 
 baseurl: http://embreate.com/wittle-website/
 #baseurl: 
