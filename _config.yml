@@ -43,5 +43,5 @@ defaults:
       site: 
 subTitle: Depression Expereince Project
 description: 
-baseurl: "/wittle-website/"
+baseurl: #"/wittle-website/"
 url: 
