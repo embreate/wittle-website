@@ -43,6 +43,6 @@ defaults:
       link: 
       site: 
 description: 
-# baseurl: http://embreate.com/wittle-website/
-baseurl: 
+baseurl: http://embreate.com/wittle-website/
+#baseurl: 
 url: 
