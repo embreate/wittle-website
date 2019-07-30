@@ -9,7 +9,8 @@ layout: default
 <br>If you or someone you know is struggling, you are not alone. There are many support services that are here to help. If you are in crisis, click the link below and follow the instructions.
 <br>[Get Help Now](http://www.crisisservicescanada.ca/en/)<br/>
 ## Text And Chat Services Available In Canada
-<br>### Canada</br>
+
+### Canada
 * All of Canada
     * [Kids Help Phone](https://kidshelpphone.ca/)
          * Text Services: Text "CONNECT" to 686868 (also serving adults)
