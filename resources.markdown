@@ -10,7 +10,7 @@ layout: default
 <br>If you or someone you know is struggling, you are not alone. There are many support services that are here to help.
 <br>If you are in crisis, click the link below and follow the instructions.
 
-<br>[Get Help Now](http://www.crisisservicescanada.ca/en/)
+[Get Help Now](http://www.crisisservicescanada.ca/en/)
 
 # Text And Chat Services Available In Canada
 
