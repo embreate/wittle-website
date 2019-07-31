@@ -5,7 +5,7 @@ isInNav: true
 layout: page
 ---
 
-### We Want To Hear From You
+### We want to hear from you!
 
 We want to collect stories of individual experiences from the mental health community! 
 
