@@ -8,19 +8,20 @@ layout: default
   <br>
   <h1 class="font-weight-bold mb-2">Wittle</h1>
   <h2 class="h4 font-weight-lighter">Depression Experience Project</h2>
-  <!-- Categories
-  <div class="dropdown mb-4">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Categories
-    </button>
-    
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      {% for category in site.stories.category %}
-      <a class="dropdown-item" href="#">Boom {{category.name}}</a>
+  <br>
+  <br>
+  <!-- Categories-->
+  <div>
+      {% assign categories = "All" %}
+      {% for story in site.stories %}
+        {% assign categories = categories | concat: story.categories %}
       {%endfor%}
-    </div>
+      {% assign categories = categories | uniq %}
+      {% for category in categories %}
+      <a id="{{category}}" class="catButton btn btn-primary {{category}}" href="#">{{category}}</a>
+      {%endfor%}
   </div>
--->
+
   <br>
   <br>
 </section>
@@ -28,7 +29,7 @@ layout: default
 <!-- Content -->
 <div class="card-columns">
 {% for story in site.stories %}
-  <div class="card mb-4">
+  <div class="card mb-4 {{story.categories | join: ' '}}">
     <img src=".{{ story.image }}" class="card-img-top" alt="...">
     <div class="card-body">
       <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
@@ -38,4 +39,19 @@ layout: default
   </div>
 {%endfor%}
 </div>
+
+<script>
+  $(document).ready(function(){
+    $(".catButton").click(function(){
+      $('.card').hide('fast','linear');
+      var id = $(this).attr('id');
+      if(id == 'All') {
+        $('.card').show('fast','linear');
+      } else {
+         $('.'+id).show('fast','linear');
+      }
+    });
+  });
+  
+</script>
       
