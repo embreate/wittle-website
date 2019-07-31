@@ -20,7 +20,7 @@ Email: info@embreate.com
 
 ### FAQ
 
-> **What kind of submissions are you looking for? **
+### *What kind of submissions are you looking for?*
  
 We are looking for any kind of media that relates to mental health and mental health awareness.
  
