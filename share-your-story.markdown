@@ -5,7 +5,7 @@ isInNav: true
 layout: page
 ---
 
-## We want to hear from you!
+### We want to hear from you!
 
 We want to collect stories of individual experiences from the mental health community! 
 
@@ -18,9 +18,9 @@ Twitter: [@Embreate ](https://twitter.com/Embreate)
 Email: info@embreate.com
 
 
-## FAQ
+### FAQ
 
-### *What kind of submissions are you looking for?*
+**What kind of submissions are you looking for?**
  
 We are looking for any kind of media that relates to mental health and mental health awareness.
  
@@ -32,7 +32,7 @@ We are looking for any kind of media that relates to mental health and mental he
  
 Anything you can find! If we think it fits what we’re looking for we will add it to our website. 
 
-*What kind of stories are you looking for?*
+**What kind of stories are you looking for?**
  
 Everyone’s experience with mental health is specific to them. But we are looking for moments where your mental health has directly impacted your life.
  
