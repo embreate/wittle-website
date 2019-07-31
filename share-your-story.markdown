@@ -32,4 +32,11 @@ We are looking for any kind of media that relates to mental health and mental he
  
 Anything you can find! If we think it fits what we’re looking for we will add it to our website. 
 
+*What kind of stories are you looking for?*
+ 
+Everyone’s experience with mental health is specific to them. But we are looking for moments where your mental health has directly impacted your life.
+ 
+If you wish for your story to inspire our media, please get in contact with us.
+
+
 
