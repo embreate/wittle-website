@@ -5,7 +5,7 @@ isInNav: true
 layout: page
 ---
 
-### We want to hear from you!
+## We want to hear from you!
 
 We want to collect stories of individual experiences from the mental health community! 
 
@@ -18,7 +18,7 @@ Twitter: [@Embreate ](https://twitter.com/Embreate)
 Email: info@embreate.com
 
 
-### FAQ
+## FAQ
 
 ### *What kind of submissions are you looking for?*
  
