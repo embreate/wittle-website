@@ -13,9 +13,9 @@ Do you know of a piece of media that stands on the side of mental health awarene
 
 Share it with us: @ us on twitter, or send us an email!
 
-          Twitter: [@Embreate ](https://twitter.com/Embreate)
+Twitter: [@Embreate ](https://twitter.com/Embreate)
 
-          Email: info@embreate.com
+Email: info@embreate.com
 
 
 ### FAQ
