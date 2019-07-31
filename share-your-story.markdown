@@ -11,9 +11,12 @@ We want to collect stories of individual experiences from the mental health comm
 
 Do you know of a piece of media that stands on the side of mental health awareness? Or do you have a story you wish to share?
 
-Send us an email!
+Share it with us: @ us on twitter, or send us an email!
 
-[Email]
+Twitter: [@Embreate ](https://twitter.com/Embreate)
+
+Email: info@embreate.com
+
 
 ### FAQ
 
