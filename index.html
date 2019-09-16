@@ -2,56 +2,83 @@
 layout: default
 ---
 
-<!-- Title -->
-<section class="text-center">
-  <br>
-  <br>
-  <h1 class="font-weight-bold mb-2">Wittle</h1>
-  <h2 class="h4 font-weight-lighter">Depression Experience Project</h2>
-  <br>
-  <br>
-  <!-- Categories-->
-  <div>
-      {% assign categories = "All" %}
-      {% for story in site.stories %}
-        {% assign categories = categories | concat: story.categories %}
-      {%endfor%}
-      {% assign categories = categories | uniq %}
-      {% for category in categories %}
-      <a id="{{category}}" class="catButton btn btn-primary {{category}}" href="#">{{category}}</a>
-      {%endfor%}
-  </div>
+<!-- Title / Logo -->
+<section class="text-center mt-5">
 
-  <br>
-  <br>
+  {% if site.logo == null %}
+  <h1 class="font-weight-bold mb-2">Wittle</h1>
+  {% else %}
+  <img src="/wittle-website/uploads/Site/Wittle-logo-black-400w.png">
+  {% endif %}
+
 </section>
 
-<!-- Content -->
-<div class="card-columns">
-{% for story in site.stories %}
-  <div class="card mb-4 {{story.categories | join: ' '}}">
-    <img src=".{{ story.image }}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
-      <p class="card-text">{{story.description}}</p>
-      <a href="{{story.link.url}}" target="_blank" class="btn btn-primary">{{story.link.text}}</a>
+<!-- About -->    
+<section class="text-center my-5">
+  <div class="row justify-content-center">
+    <div class="col-sm-6">
+      <h2 class="h4 font-weight-lighter">Real stories about depression and anxiety transformed into animated games.</h2>
     </div>
   </div>
-{%endfor%}
-</div>
+</section>
 
-<script>
-  $(document).ready(function(){
-    $(".catButton").click(function(){
-      $('.card').hide('fast','linear');
-      var id = $(this).attr('id');
-      if(id == 'All') {
-        $('.card').show('fast','linear');
-      } else {
-         $('.'+id).show('fast','linear');
-      }
-    });
-  });
+<!-- Under construction -->    
+<section class="text-center my-5">
+  <div class="row justify-content-center">
+
+    <div class="col-sm-12 col-md-10 col-lg-8">
+      <div class="alert alert-danger" role="alert">
+      <h2 class="">
+        <i class="fad fa-construction mr-3"></i> 
+        Under Construction 
+        <i class="fad fa-construction ml-3"></i>
+      </h2>
+      <hr>
+      <p>The Wittle project and this site are currently in development. We are currently using the site to collect feedback from specific stake holders. There are aspects to the site that are incomplete and being worked on in real time.</p>      
+    </div>
+
+  </div>
+</section>
+
+<!-- Original Games -->
+<section class="my-5">
+  <div class="row justify-content-center">
+  {% assign stories = site.stories | where: "internal", "true" | sort: 'date' | reverse %}
+  {% for story in stories %}
+    <div class="col-md-6 col-lg-4"> 
+      <div class="card mb-4 {{story.categories | join: ' '}}">
+        <img src=".{{ story.image }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
+          <p class="card-text">{{story.description}}</p>
+          <a href="{{story.link.url}}" target="_blank" class="btn btn-primary">{{story.link.text}}</a>
+        </div>
+      </div>
+    </div> 
+  {%endfor%}
+  </div>
+</section>
+
+<!-- Stories Wanted -->    
+<section class="my-5">
+  <div class="row justify-content-center">
+    <div class="col-8 col-sm-6 col-md-4 text-center bg-info rounded-pill p-5">
+      <h2 class="text-light">Stories Wanted</h2>
+      <p class="text-light">We're looking for personal stories about the experience of living with depression. </p>
+      <a href="/share-your-story.html" class="btn btn-warning">LEARN MORE</a>
+    </div>
+  </div>
+</section>
+
+<!-- Boosted by Maker Boost --> 
+<section class="my-5">
+  <div class="row justify-content-center">
+    <div class="col-8 col-sm-6 col-md-4 text-center">
+        <p class="text-muted small mb-0">Made possible with the support of:</p>
+        <img class="img-fluid mb-1" src="{{site.baseurl}}/uploads/Maker-Boost-Logo-TM-Dark-538w.png">
+        <p>Looking for help with a project?</p>
+        <a href="http://makerboost.embreate.com/" target="_blank" class="btn btn-primary">GET BOOSTED</a>
+    </div>
+  </div>
   
-</script>
-      
+</section>

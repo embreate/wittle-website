@@ -1,6 +1,7 @@
 ---
 title: Night In The Woods
 date: 2019-07-24 15:52:00 Z
+internal: false
 categories:
 - Game
 - Animation

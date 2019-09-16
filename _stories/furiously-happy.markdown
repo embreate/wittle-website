@@ -1,6 +1,7 @@
 ---
 title: Furiously Happy
 date: 2019-07-24 16:33:00 Z
+internal: false
 categories:
 - Books
 description: The humorous memoir of Jenny Lawson as she examines her own experience

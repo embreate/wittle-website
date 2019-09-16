@@ -42,9 +42,10 @@ defaults:
     social:
       link: 
       site: 
-subTitle: Depression Expereince Project
+subTitle: Depression Experience Project
 description: 
 baseurl: "/wittle-website/"
+logo: "/uploads/Site/Wittle-logo-black-400w.png"
 url: 
 sass:
   sass_dir: _sass
