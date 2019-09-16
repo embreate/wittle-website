@@ -1,9 +1,9 @@
 ---
 title: The Bloggess
 date: 2019-07-24 16:25:00 Z
-internal: false
 categories:
 - Blog
+internal: false
 description: "“I’ve been blogging about my strange little life for over a decade.
   \ It’s mainly dark humor mixed with brutally honest periods of mental illness.”
   - The Bloggess"
