@@ -47,7 +47,7 @@ layout: default
   {% for story in stories %}
     <div class="col-md-6 col-lg-4"> 
       <div class="card mb-4 {{story.categories | join: ' '}}">
-        <img src=".{{ story.image }}" class="card-img-top" alt="...">
+        <img src="{{ story.image | relative_url }}" class="card-img-top" alt="...">
         <div class="card-body">
           <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
           <p class="card-text">{{story.description}}</p>

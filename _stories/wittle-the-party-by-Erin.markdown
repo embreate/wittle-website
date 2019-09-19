@@ -10,6 +10,6 @@ description: Erin finds herself treading water for her life at get together of c
 link:
   text: Coming Soon
   url: 
-image: "/uploads/the-party-800x800.jpg"
+image: "/uploads/the-party-800x800.JPG"
 ---
 
