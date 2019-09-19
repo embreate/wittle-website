@@ -20,7 +20,7 @@ layout: default
     <h3 class="text-center">Related Posts</h3>
     {% for story in site.stories limit: 3 %}
     <div class="card mb-4">
-      <img src="../{{ story.image }}" class="card-img-top" alt="...">
+      <img src="{{ story.image | absolute_url }}" class="card-img-top" alt="...">
       <div class="card-body">
         <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
         <p class="card-text">{{story.description}}</p>
