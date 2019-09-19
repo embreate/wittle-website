@@ -1,9 +1,9 @@
 ---
 title: How to Be Happy (Or at Least Less Sad)
 date: 2019-07-24 16:27:00 Z
-internal: false
 categories:
 - Books
+internal: false
 description: Through a series of supportive, surprising, and engaging prompts, How
   To Be Happy (or at least less sad) helps readers see things in a new light, and
   rediscover simple pleasures and everyday joy.

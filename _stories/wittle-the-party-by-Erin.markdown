@@ -1,14 +1,15 @@
 ---
 title: 'The Party: A Story by Erin'
 date: 2019-09-11 20:50:00 Z
-internal: true
 categories:
 - Game
+internal: true
 layout: story
-description: Erin finds herself treading water for her life at get together of close friends. 
+description: Erin finds herself treading water for her life at get together of close
+  friends.
 link:
   text: Coming Soon
-  url: #
+  url: 
 image: "/uploads/the-party-800x800.jpg"
 ---
 
