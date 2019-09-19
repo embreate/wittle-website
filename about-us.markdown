@@ -42,6 +42,6 @@ If you'd be interested in joining the team please review the Wittle [development
   <div class="col-9">
     <img class="img-fluid" src="{{site.baseurl}}/uploads/Maker-Boost-Logo-TM-Dark-538w.png"> 
     <p class="text-muted">Supporting Creators from Concept to Completion</p>
-    <p>The <a href="http://makerboost.embreate.com/">Maker Boost</a> project development community is providing invalubale fundraising and production support for Wittle. Learn more about their programs <a href="http://makerboost.embreate.com/">on their website</a>.</p>
+    <p>The Maker Boost project development community is providing invalubale fundraising and production support for Wittle. Learn more about their programs <a href="http://makerboost.embreate.com/">on their website</a>.</p>
   </div>
 </div>
