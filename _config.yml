@@ -44,7 +44,7 @@ defaults:
       site: 
 subTitle: Depression Experience Project
 description: 
-baseurl: "/wittle-website/"
+baseurl: 
 logo: "/uploads/Site/Wittle-logo-black-400w.png"
 url: 
 sass:
