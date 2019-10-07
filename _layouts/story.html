@@ -2,31 +2,78 @@
 layout: default
 ---
 
-<div class="row">
-	<div class="col-md-6 offset-md-3">
-		<div class="card">
-			<img src="{{ page.image  | absolute_url }}" class="card-img-top" alt="...">
-			<div class="card-body">
-        <h5 class="card-title">{{page.title}}</h5>
-				<p class="card-text">{{page.description}}</p>
-				<a href="{{page.link.url}}" class="btn btn-primary">{{page.link.text}}</a>
-				{% include social-share.html %}
-			</div>
-    </div>
-    
-    <br>
-    <br>
+<section class="section">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-centered">
+      <div class="card">
+        
+        <div class="card-image">
+          <figure class="image">
+              <img src="{{ page.image  | absolute_url }}">
+          </figure>
+        </div>
+        
+        <div class="card-content">
+          <h5 class="title is-4">{{page.title}}</h5>
+          <p>{{page.description}}</p>
+          <br>
+          
+          <nav class="level">
+            <div class="level-left">
+              <div class="level-item">
+                <a href="{{page.link.url}}" class="button is-info is-rounded">
+                {{page.link.text}}
+                </a>
+              </div>
+            </div>
+            <div class="level-right">
+              <div class="level-item">
+                {% include social-share.html %}
+              </div>
+            </div>
+          </nav>
 
-    <h3 class="text-center">Related Posts</h3>
-    {% for story in site.stories limit: 3 %}
-    <div class="card mb-4">
-      <img src="{{ story.image | absolute_url }}" class="card-img-top" alt="...">
-      <div class="card-body">
-        <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
-        <p class="card-text">{{story.description}}</p>
-        <a href="{{story.link.url}}" target="_blank" class="btn btn-primary">{{story.link.text}}</a>
+        </div>
       </div>
     </div>
-    {%endfor%}
   </div>
-</div>
+</section>    
+
+<section class="section">
+  <div class="container has-text-centered">
+    <h3 class="title is-2">Related Posts</h3>
+    <div class="columns is-centered">
+      
+      {% for story in site.stories limit: 3 %}
+      <div class="column has-text-centered">
+        <div class="card">
+          
+          <div class="card-image">
+            <figure class="image">
+                <img src="{{ story.image  | absolute_url }}">
+            </figure>
+          </div>
+          
+          <div class="card-content">
+            
+            <h5 class="title is-4">
+              <a href="{{ story.url | relative_url }}">
+                {{story.title}}
+              </a>
+            </h5>
+            
+            <p>{{story.description}}</p>
+            <br>
+            <p>
+              <a href="{{story.link.url}}" class="button is-info is-rounded">
+                {{story.link.text}}
+              </a>
+            </p>
+          </div>
+        </div><!--end .card-->
+      </div><!--end .column-->      
+      {%endfor%}
+    </div>
+
+  </div>
+</section>

@@ -7,14 +7,10 @@
   {% assign pageTitle = include.postTitle%}
 {%endif%}
     
-{%if include.postMessage%}
-<p class="card-subtitle my-1 text-muted mr-auto "> {{include.postMessage}}</p>
-{%endif%}
 
-<div class="float-right">
   {%unless include.facebook=='hidden'%}
   <a  href="https://www.facebook.com/sharer/sharer.php?u={{pageURL}}"
-      class="btn"
+      class="has-text-info m-r-20"
       onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
       title="Share on Facebook" >
       <i class="fab fa-facebook fa-2x"></i>
@@ -22,13 +18,13 @@
   {%endunless%}
   {%unless include.twitter=='hidden'%}
   <a  href="https://twitter.com/intent/tweet?text={{ pageTitle }}&url={{ pageURL }}"
-      class="btn"
+      class="has-text-info"
       onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
       title="Share on Twitter" >
       <i class="fab fa-twitter fa-2x"></i>
   </a>
   {%endunless%}
-</div>
+
     
 
 

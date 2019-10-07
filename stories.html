@@ -1,0 +1,114 @@
+---
+title: Stories
+permalink: "/stories/"
+layout: default
+isInNav: true
+---
+
+<section class="section">
+  <div class="columns content is-centered">
+    <div class="column is-half has-text-centered">
+      <h1 class="title is-1 is-uppercase has-text-black">{{page.title}}</h1>
+      <p>Wittle is in the prototype phase with the plan to create two stories based on real life experiences with depression.</p>
+      <br>
+    </div>
+  </div>
+  <div class="columns is-centered">
+    {% assign stories = site.stories | where: "internal", "true" | sort: 'date' | reverse %}
+    {% for story in stories %}
+    <div class="column is-half">
+      <div class="card">
+        <div class="card-image">
+          <figure class="image">
+            <img src="{{ story.image  | absolute_url }}">
+          </figure>
+        </div>
+        <div class="card-content">
+          <h5 class="title is-4">
+            <a href="{{ story.url | relative_url }}">
+              {{story.title}}
+            </a>
+          </h5>
+          <p>{{story.description}}</p>
+          <br>
+          <p>
+            <a href="{{story.link.url}}" class="button is-info is-rounded">
+              {{story.link.text}}
+            </a>
+          </p>
+        </div>
+      </div><!--end .card-->
+    </div><!--end .column-->
+    {%endfor%}
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns content is-centered">
+    <div class="column is-half has-text-centered">
+      <h1 class="title is-1 is-uppercase has-text-black">Inspiration</h1>
+      <p>A collection of our favorite projects that explore the subject of depression.</p>
+    </div>
+  </div>
+  <!-- Categories-->
+  <nav class="has-text-centered">
+      {% assign categories = "All" %}
+      {% for story in site.stories %}
+        {% assign categories = categories | concat: story.categories %}
+      {%endfor%}
+      {% assign categories = categories | uniq %}
+      {% for category in categories %}
+      <a id="{{category}}" class="catButton button is-rounded is-info {{category}}" href="#">{{category}}</a>
+      {%endfor%}
+  </nav>
+</section>
+
+<!-- Content -->
+<section class="section">
+  <div class="columns is-multiline">
+  {% assign stories = site.stories | where: "internal", "false" %}
+  {% for story in stories %}
+    <div class="column listItem is-one-third {{story.categories | join: ' '}}">
+      <div class="card">
+            
+        <div class="card-image">
+          <figure class="image">
+              <img src="{{ story.image  | absolute_url }}">
+          </figure>
+        </div>
+        
+        <div class="card-content">
+          
+          <h5 class="title is-4">
+            <a href="{{ story.url | relative_url }}">
+              {{story.title}}
+            </a>
+          </h5>
+          
+          <p>{{story.description}}</p>
+          <br>
+          <p>
+            <a href="{{story.link.url}}" class="button is-info is-rounded">
+              {{story.link.text}}
+            </a>
+          </p>
+        </div>
+      </div><!--end .card-->
+    </div><!--end .column-->
+  {%endfor%}
+  </div><!--end .columns-->
+</section>
+<script>
+  $(document).ready(function(){
+    $(".catButton").click(function(){
+      $('.listItem').hide('fast','linear');
+      var id = $(this).attr('id');
+      if(id == 'All') {
+        $('.listItem').show('fast','linear');
+      } else {
+         $('.'+id).show('fast','linear');
+      }
+    });
+  });
+  
+</script>

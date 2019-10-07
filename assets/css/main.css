@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(234,255,34);
+}
+
+/* Helpers */
+.m-r-10{margin-right:10px;}
+.m-r-20{margin-right:20px;}
+.m-r-30{margin-right:30px;}
+.m-t-neg100{margin-top:-100px;}
+.m-l-20{margin-left:20px;}
+.p-20{padding:20px}
+
+.h-600{height: 600px}
+
+
+.v-align-bottom { margin-top: auto; }
+
+.column-top{order: 2;}
+.column-bottom{order: 5;}
+
+
+/* Navbar */
+nav.level .level-left .level-item {
+    margin-right:30px;
+} 
+
+/* Footer */
+
+footer.footer{
+    background-color: inherit;
+}

@@ -3,74 +3,235 @@ layout: default
 ---
 
 <!-- Title / Logo -->
-<section class="text-center mt-5">
-
-  {% if site.logo == null %}
-  <h1 class="font-weight-bold mb-2">Wittle</h1>
-  {% else %}
-  <img src="/uploads/Site/Wittle-logo-black-400w.png">
-  {% endif %}
-
-</section>
-
-<!-- About -->    
-<section class="text-center my-5">
-  <div class="row justify-content-center">
-    <div class="col-sm-6">
-      <h2 class="h4 font-weight-lighter">Real stories about depression and anxiety transformed into animated games.</h2>
-    </div>
-  </div>
-</section>
-
-<!-- Under construction -->    
-<section class="text-center my-5">
-  <div class="row justify-content-center">
-
-    <div class="col-sm-12 col-md-10 col-lg-8">
-      <div class="alert alert-danger" role="alert">
-      <h2 class="">
-        <i class="fad fa-construction mr-3"></i> 
-        Under Construction 
-        <i class="fad fa-construction ml-3"></i>
+<section class="section">
+  <div class="container">
+    <div class="content has-text-centered">
+      {% if site.logo == null %}
+      <h1 class="">Wittle</h1>
+      {% else %}
+      <img src="/uploads/Site/Wittle-logo-black-400w.png">
+      {% endif %}
+      <h2 class="has-text-weight-light">
+        Stories About Depression
       </h2>
-      <hr>
-      <p>The Wittle project and this site are currently in development. We are currently using the site to collect feedback from specific stakeholders. There are aspects to the site that are incomplete and being worked on in real time.</p>      
     </div>
-
   </div>
 </section>
 
-<!-- Original Games -->
-<section class="my-5">
-  <div class="row justify-content-center">
-  {% assign stories = site.stories | where: "internal", "true" | sort: 'date' | reverse %}
-  {% for story in stories %}
-    <div class="col-md-6 col-lg-4"> 
-      <div class="card mb-4 {{story.categories | join: ' '}}">
-        <img src="{{ story.image | relative_url }}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <a href="{{ story.url | relative_url }}"><h5 class="card-title">{{story.title}}</h5></a>
-          <p class="card-text">{{story.description}}</p>
-          <a href="{{story.link.url}}" target="_blank" class="btn btn-primary">{{story.link.text}}</a>
+<!-- Featured -->
+<section class="section">
+  <div class="columns content is-mobile">
+    
+    <div class="column is-half">
+      <p class="has-text-black has-text-left">
+        <i class="fas fa-video fa-4x"></i>
+      </p>
+      <img src="/uploads/index/brian-video-promo-800x800.jpg">
+      <div class="has-text-centered">
+        <br>
+        <p class="is-size-3 has-text-weight-light is-hidden-mobile">
+          A short animation exploring a day in the life of Brian whose depression makes him feel dislocated from life.</p>
+        <p>
+          <a class="button is-rounded is-black is-large" 
+          href="https://youtu.be/5xekWrEH_vg"
+          target="_blank">
+            <i class="fas fa-video fa-lg m-r-20"></i>
+            <bold>Watch</bold>
+          </a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="column is-half">
+        <p class="has-text-black has-text-right">
+          <i class="fas fa-joystick fa-4x"></i>
+        </p>
+        <img src="/uploads/index/brian-game-promo-800x800.jpg">
+        <div class="has-text-centered">
+          <br>
+          <p class="is-size-3 has-text-weight-light is-hidden-mobile">
+            Help Brian through his day by navigating his disembodied head around lifes obstacles.</p>
+          <p>
+            <a class="button is-rounded is-black is-large" 
+            href="https://wittle-drift.netlify.com/"
+            target="_blank">
+              <i class="fas fa-joystick fa-lg m-r-20"></i>
+              <bold>Play</bold>
+            </a>
+          </p>
         </div>
       </div>
-    </div> 
-  {%endfor%}
+
   </div>
 </section>
 
-<!-- Stories Wanted -->    
-<section class="my-5">
-  <div class="row justify-content-center">
-    <div class="col-8 col-sm-6 col-md-4 text-center bg-info rounded-pill p-5">
-      <h2 class="text-light">Stories Wanted</h2>
-      <p class="text-light">We're looking for personal stories about the experience of living with depression. </p>
-      <a href="/share-your-story.html" class="btn btn-warning">LEARN MORE</a>
+<!-- Single Project: Drift -->
+<section class="section">
+  <div class="columns is-centered content">
+    <div class="column is-half has-text-centered">  
+      <img src="/uploads/index/drift-feature-title.png">
+      <p class="is-size-3 has-text-weight-light">Brian's depression made him feel as if he was disloacted from his body and the people around him.</p>
+    </div>
+  </div>
+  <div class="columns is-vcentered">
+    <div class="column ">
+        <div class="columns is-mobile has-text-centered">
+          <div class="column">
+            <div class="box has-background-black">
+              <a class="has-text-white" target="_blank" href="https://youtu.be/5xekWrEH_vg">
+                <i class="fas fa-video fa-4x"></i>
+                <p class="is-size-5 has-text-weight-light">WATCH</p>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box has-background-black">
+              <a class="has-text-white" target="_blank" href="https://wittle-drift.netlify.com/">
+                <i class="fas fa-joystick fa-4x"></i>
+                <p class="is-size-5 has-text-weight-light">PLAY</p>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <a class="has-text-black" href="/stories/wittle-drift-by-brian.html">
+                <i class="fal fa-chevron-right fa-4x"></i>
+                <p class="is-size-5 has-text-weight-light">MORE</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="column">
+      <img src="/uploads/index/body.png">
+    </div>
+    
+  </div>    
+</section>
+
+<!-- Call for stories -->
+<section class="section has-background-primary">
+  <div class="columns is-centered content is-vcentered">
+    <div class="column v-align-bottom">
+      <img src="/uploads/index/Burner2.png">
+    </div>
+    <div class="column is-half has-text-centered">  
+      <p class="is-size-2 has-text-weight-light has-text-black">
+        We're looking for stories <span class="has-text-weight-bold">about depression.</span>
+      </p>
+      <p>
+        <a class="button is-rounded is-black is-large" href="/contribute.html">
+          <bold>Learn More</bold>
+        </a>
+      </p>
+    </div>
+    <div class="column h-600">
+      <img src="/uploads/index/Barkdog2.png">
     </div>
   </div>
 </section>
 
-<!-- Boosted by Maker Boost --> 
+<!-- Newsletter Signup -->
+<section class="section">
+  <div class="columns is-centered content is-vcentered">
+    <div class="column v-align-bottom">
+      <img src="/uploads/index/Burner2.png">
+    </div>
+    
+    <div class="column is-half has-text-centered">  
+      <h2 class="is-size-2 has-text-weight-bold">Get Involved</h2>
+      <p class="is-size-2 has-text-weight-light has-text-black">
+        Wittle is just getting started. Stay up to date as we grow and evolve.
+      </p>
+      <p>
+        <a class="button is-rounded is-black is-large" href="#">
+          <bold>Sign Up</bold>
+        </a>
+      </p>
+      <br>
+      <p>No spam, just the important stuff!</p>
+    </div>
+
+    <div class="column h-600">
+      <img src="/uploads/index/Barkdog2.png">
+    </div>
+  </div>
+</section>
+
+<!-- Social Media -->
+<section class="section has-background-info">
+  <div class="columns is-centered content is-vcentered">
+    <div class="column is-half v-align-bottom">
+      <img src="/uploads/index/Brian-Standing.png">
+    </div>
+    
+    <div class="column is-one-quarter has-text-centered">  
+      <h2 class="is-size-2 has-text-weight-bold has-text-white">
+        Keep the conversation going
+      </h2>
+      <p class="is-size-1 has-text-weight-light has-text-white">
+        #wittle
+      </p>
+      <nav class="level is-mobile">
+        <div class="level-item">
+          <a class="has-text-white" target="_blank" href="https://twitter.com/embreate">
+            <i class="fab fa-twitter fa-3x"></i>
+          </a>
+        </div>
+        <div class="level-item">
+          <a class="has-text-white" target="_blank" href="https://www.instagram.com/embreate">
+            <i class="fab fa-instagram fa-3x"></i>
+          </a>
+        </div>
+        <div class="level-item">
+          <a class="has-text-white" target="_blank" href="https://www.facebook.com/embreate">
+            <i class="fab fa-facebook fa-3x"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="column"></div>
+  </div>
+</section>
+
+<section class="section content has-text-centered">
+  <h2 class="is-size-2 has-text-weight-bold has-text-black">
+    Our Partners
+  </h2>
+  <br>
+  <div class="columns is-centered content is-vcentered">
+    <div class="column">
+      <a href="https://www.embreate.com/" target="_blank"> 
+        <img src="/uploads/partners/Embreate-Logo.svg">
+      </a>
+    </div>
+    <div class="column">
+      <a href="https://www.plaifactory.com/" target="_blank">  
+        <img src="/uploads/partners/Plai-Factory-Logo-Tall.svg">
+      </a>
+    </div>
+    <div class="column">
+      <a href="https://telusfund.ca/" target="_blank"> 
+        <img src="/uploads/partners/Telus-Fund-logo.svg">
+      </a>
+    </div>
+    <div class="column">
+      <a href="http://www.camh.ca/" target="_blank"> 
+        <img src="/uploads/partners/camh-logo-black-1000.png">
+      </a>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- Boosted by Maker Boost  
 <section class="my-5">
   <div class="row justify-content-center">
     <div class="col-8 col-sm-6 col-md-4 text-center">
@@ -82,3 +243,4 @@ layout: default
   </div>
   
 </section>
+-->

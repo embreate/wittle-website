@@ -1,5 +1,5 @@
 ---
-title: Share Your Story
+title: Contribute
 date: 2019-07-22 17:48:00 Z
 isInNav: true
 layout: page
@@ -12,9 +12,7 @@ We are collecting stories of individual experiences of those who suffer from dep
 ### Contact Us
 If you're interested please get in touch with us and we can answer any questions you have and provide more information on the process.   
 
-<a href="https://forms.gle/Bsd5fc2m4CeCQEQc7" class="btn btn-primary">Form</a>
-<a href="https://twitter.com/Embreate" class="btn btn-primary">Twitter</a>
-<a href="mailto:info@embreate.com" class="btn btn-primary">Email</a>
+<a href="mailto:wittle@embreate.com" class="button is-large is-rounded is-info">wittle@embreate.com</a>
 
 <br>
 

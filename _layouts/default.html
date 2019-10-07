@@ -1,20 +1,9 @@
 <!doctype html>
 <html lang="en">
   {% include head.html %}
-  <body class="d-flex flex-column h-100">
-
+  <body>
     {% include navbar.html %}
-    
-    <main role="main" class="flex-shrink-0">
-      <div class="container py-5">
-
-        {{ content }}
-        
-      </div>
-    </main>
-
-    {% include footer.html %}    
-
-    
+    {{ content }}
+    {% include footer.html %}     
   </body>
 </html>

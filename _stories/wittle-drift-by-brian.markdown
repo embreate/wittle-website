@@ -1,5 +1,5 @@
 ---
-title: 'Drift: A Story by Brian'
+title: 'Drift by Brian'
 date: 2019-09-11 20:50:00 Z
 categories:
 - Game

@@ -1,5 +1,49 @@
-<header>
-  <!-- Navigation -->
+
+<!-- Main container -->
+<section class="section">
+  <div class="container">
+    <nav class="level is-mobile">
+      <!-- Left side -->
+      <div class="level-left">
+        {% for page in site.pages %}
+        {% if page.isInNav == true %}
+        {% if page.title != "Contribute" %}
+        <p class="level-item m-r-30">
+          <small>
+            <a class="has-text-black"
+              href="{{ page.url | relative_url }}">
+              {{page.title}}
+            </a>
+          </small>
+        </p>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="level-center">
+        <p>
+          <a href="{{ '/' | absolute }}">
+              <img src="/uploads/Site/Wittle-logo-black-100w.png">
+          </a>
+        </p>
+      </div>
+      <!-- Right side -->
+      <div class="level-right">
+        <p class="level-item">
+          <a href="/contribute.html"
+            class="button is-rounded is-black p-20">
+            <i class="fal fa-plus fa-2x m-r-10"></i> Contribute
+          </a>
+        </p>
+      </div>
+    </nav>
+  </div>
+</section>
+
+
+
+<!-- <header>
+  Navigation 
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     
     <a class="navbar-brand" href="{{ site.url }}">Wittle</a>
@@ -21,3 +65,4 @@
     </div>
   </nav>
 </header>
+-->
