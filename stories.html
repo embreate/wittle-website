@@ -58,7 +58,9 @@ isInNav: true
       {%endfor%}
       {% assign categories = categories | uniq %}
       {% for category in categories %}
-      <a id="{{category}}" class="catButton button is-rounded is-info {{category}}" href="#">{{category}}</a>
+      <a id="{{category}}" class="catButton button is-rounded is-info {{category}}">
+        {{category}}
+      </a>
       {%endfor%}
   </nav>
 </section>
@@ -98,6 +100,7 @@ isInNav: true
   {%endfor%}
   </div><!--end .columns-->
 </section>
+
 <script>
   $(document).ready(function(){
     $(".catButton").click(function(){

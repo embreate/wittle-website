@@ -22,7 +22,7 @@ WITTLE raises awareness of how depression affects those who suffer from it. Depr
 <br>
 <br>
 ## Status
-**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video(https://youtu.be/5xekWrEH_vg) and [casual browser game](https://wittle-drift.netlify.com/). 
+**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video](https://youtu.be/5xekWrEH_vg){:target="_blank"} and [casual browser game](https://wittle-drift.netlify.com/){:target="_blank"}. 
 <br>
 <br>
 ## Seeking Stories
@@ -33,9 +33,9 @@ Would you like to share your own experience living with depression? Drop us a li
 <img class="img-fluid" src="{{site.baseurl}}/uploads/Wittle-Team-800w.jpg">
 
 ## Our Team
-Wittle is produced by [Embreate](https://embreate.com/) and [Plai Factory](https://www.plaifactory.com/) in collaboration with [CAMH](https://www.camh.ca/) and the support of the [Telus Fund](https://telusfund.ca/). 
+Wittle is produced by [Embreate](https://embreate.com/){:target="_blank"} and [Plai Factory](https://www.plaifactory.com/){:target="_blank"} in collaboration with [CAMH](https://www.camh.ca/){:target="_blank"} and the support of the [Telus Fund](https://telusfund.ca/){:target="_blank"}. 
 
-If you're interested in joining the WITTLE team, please review our [project development page](http://makerboost.embreate.com/projects/wittle.html) for opportunities.  
+If you're interested in joining the WITTLE team, please review our [project development page](http://makerboost.embreate.com/projects/wittle.html){:target="_blank"} for opportunities.  
 <br>
 <br>
 
