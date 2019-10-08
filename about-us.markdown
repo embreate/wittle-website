@@ -6,8 +6,6 @@ layout: page
 description: Real stories about depression and anxiety transformed into animated games
 ---
 
-
-
 <div class="row justify-content-center">
   <div class="col-9">
     <img class="img-fluid" src="{{site.baseurl}}/uploads/Drift-Promo-800x800.png">
