@@ -18,11 +18,28 @@ body{
 .column-top{order: 2;}
 .column-bottom{order: 5;}
 
+/*@include mobile*/
+@media screen and (max-width: 768px){
+  .columns.is-reverse-mobile {
+    flex-direction: column-reverse;
+    display: flex; 
+  }
+}
+
+.columns.is-reverse-mobile .column {
+  width: 100%;
+}
+
+
 
 /* Navbar */
 nav.level .level-left .level-item {
     margin-right:30px;
 } 
+
+#page-index nav .site-logo {
+    display: none;
+}
 
 /* Footer */
 

@@ -7,45 +7,64 @@ layout: page
 
 ### We want to hear from you!
 
-We are collecting stories of individual experiences of those who suffer from depression. If selected your story would be transformed into a 1-2 minute animation and casual style mobile game.  
+We’re collecting personal experiences of depression. If selected, your story will be transformed into a 1-2 minute animation and casual-style mobile game.
 
 ### Contact Us
-If you're interested please get in touch with us and we can answer any questions you have and provide more information on the process.   
+Please get in touch with us. We’re happy to answer your questions and provide more information on our process.  
 
 <a href="mailto:wittle@embreate.com" class="button is-large is-rounded is-info">wittle@embreate.com</a>
 
 <br>
 
-### FAQ
+# FAQ
 
-##### What kind of stories are you looking for?
- 
- The subject matter we are covering can be a hard topic for anyone to talk about and we want to make sure that all involved feel safe and find the experience rewarding. That being said, we are looking for personal stories that we can use as a base for a game. These stories do not need to be hyper-specific with details you may not be comfortable sharing. Everyone who suffers from depression has different experiences and we wish to represent faithfully what our subjects have gone through. 
+#### What kind of stories are you looking for?
+A personal experience with depression and anxiety. What triggered the episode? How did you react? How did others? Did you resolve it? If not, what happened?  We want to know how you felt and share that with others to de-stigmatize mental illness.
 
-##### Do I have to be a comedian to share my story?
+#### Do I have to be a comedian to share my story? Does the story have to be funny?
+Not at all. We welcome stories from all walks of life. Only at this early stage are we focussing on a few comedians whose stories are, in fact, serious. When you tell us your story, just be candid and honest.
 
-No. It's tru that for this stage of the project we are focussing on stories from comedians, improv performers and those who work in the comedy community. But as the project evolves we will likely branch out to explore the mental health realities of other professions. 
+#### I live in Utah. Will you consider my story?
+Yes, from anywhere in the world. Keep in mind that if you are selected, we will record you telling your story. We’re located in Toronto, so drop by our office, but if you live outside the GTA, we will arrange for someone to record your audio. English only, please.
 
-##### Is every story accpted into the project?
-No. Our selection committee will be deciding which stories are used for the project. 
+#### How graphic can my story be? Can I mention suicide, overdose or self-harming?
+We will consider any story about depression. Suicide, overdose and self-harming are, sadly, a reality of depression, and our job is to convey the authentic experience of depression.
 
-##### Does the story have to be funny?
- 
-No. We are working with members of the comedy community but the stories don't need to be funny. 
+#### Can I share someone else’s story, like my brother’s?
+We prefer first-person stories to encourage others to come forward. However, we will consider a story told about someone close to you, such as a sibling or spouse.
 
-##### What if I share something with you I don’t wish to be public? 
-If after sharing a story and decide that you do not want the topic used for the game, we will take it out of our design possibilities. We will not share any stories that you wish not to be made public.  
+#### Will you automatically accept my story?
+No. Our selection committee will decide which stories will be used. However, everyone who submits a story will be contacted with a decision.
 
-##### I have a book/show I would like to plug, will I be able to do that? 
-Yes. Each game will have it's own page on the Wittle website with a short bio about the storyteller, you could provide information about your work here along with a link to where people could learn more about it.  
+#### What is your submission deadline for stories?
+Open now. Contact Wittle@embreate.com with your contact info and we will follow up. Submission queries end January 7, 2020.
 
-##### Can I Be Anonymous? 
-Yes. When we publish your story you could opt to not be mentioned at all or we could only publish your first name. 
+#### What happens if you accept my story?
+**Step 1:** You sign a standard waiver, granting Embreate the rights to adapt your depression experience to a game and an animated short.
 
-##### How much time will I need to commit to the project 
-Once your story is accepted the story producer will conduct a pre-interview over the phone or in person which will take no more than an hour. Throughout the process you will be sent drafts of the animation script and the game design bible and you will have an opportunity to provide feedback. At the end of the process we will need you to come into our studio to record the final voice over for the animation and game which would take between one and two hours at most.  
-##### How graphic can the stories get? (for instance about the topic of suicide)
-This is all dependent on your comfort level. Any stories that you are not comfortable with us using will be quickly dismissed. Share as much as you would like, we want this to be a comfortable experience.
+**Step 2:** A story producer will conduct a pre-interview with you over the phone or in person to gather more details. This will last one to two hours. 
+
+**Step 3:** We write the animation script and design the game over several drafts.
+
+**Step 4:** We will consult you throughout production, asking you additional questions and checking details. We want to faithfully reproduce your experience.
+
+**Step 5:** In the final editing stage, we invite you to our Toronto office so we can record you telling your story. This audio will appear in the videogame and animation. If you live outside Toronto, we will arrange and pay for a recording session near you.  This session will take one to two hours.
+
+#### After I agree to let Embreate adapt my story, can I change my mind and withdraw it?
+No. Once you sign the waiver, you are giving us permission to create the videogame and animation.
+
+#### Can I be anonymous? I’m happy to share my experience, but don’t want to speak about it for the animation. Can someone else tell my story?
+Yes, but we prefer stories told by the person who experienced the scenario. As mentioned, the aim of WITTLE is to let people who suffer depression tell their story and inspire others to talk openly of their mental health issues. If you request anonymity, it’s best to mention it upfront. We will consider your request on a case-by-case basis. If we both agree, we will publish only your first name or remove your entire name. We will also discuss who narrates the videogame and animation of your story. However, we strongly prefer that you talk about your own experience.
+
+#### I have a book/show/web series I want to plug. Can the WITTLE game and animation do that?
+Your experience must centre on depression, not your project or work even if it is related. However, each game/animation will have its own page on the WITTLE website. There, you can mention your project within your short bio and provide a link. 
+
+#### Will I be paid for my time and story?
+Yes. We pay an honorarium to compensate you for your time.
+
+#### Do I get final approval of the finished videogame and animation?
+No. Embreate controls the final videogame and animation, but as you can see, we strive at every step of the process to obtain your input. The final game and animation should match what you told us.
+
 
 
 
