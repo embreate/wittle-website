@@ -10,7 +10,7 @@ body{
 .m-l-20{margin-left:20px;}
 .p-20{padding:20px}
 
-.h-600{height: 600px}
+.h-600{min-height: 600px}
 
 
 .v-align-bottom { margin-top: auto; }
