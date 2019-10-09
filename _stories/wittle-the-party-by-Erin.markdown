@@ -12,8 +12,7 @@ link:
   url: 
 links:
 - text: Coming Soon
-  url: #
-
+  url: 
 image: "/uploads/the-party-800x800.JPG"
 ---
 
