@@ -33,14 +33,13 @@ isInNav: true
           <br>
           <p>
             {% for link in story.links %}
-            <a href="{{link.url}}" target="_blank" class="button is-info is-rounded m-r-10">
+            <a href="{{link.url}}" target="_blank" class="button is-info is-rounded m-r-10 m-b-10">
               <i class="fas {{link.icon}} m-r-10"></i>
               {{link.text}}
             </a>
             {% endfor %}
-            <a href="{{ story.url | relative_url }}" class="button is-info is-rounded m-r-10">
-              More <i class="fas fa-chevron-right m-l-10"></i>
-              
+            <a href="{{ story.url | relative_url }}" class="button is-info is-rounded">
+              More <i class="fas fa-chevron-right m-l-10 "></i>
             </a>
           </p>
         </div>
