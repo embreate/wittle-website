@@ -6,11 +6,9 @@ layout: page
 description: Real stories about depression and anxiety transformed into animated games
 ---
 
-<div class="row justify-content-center">
-  <div class="col-9">
-    <img class="img-fluid" src="{{site.baseurl}}/uploads/Drift-Promo-800x800.png">
-  </div>
-</div>
+
+<img src="{{site.baseurl}}/uploads/Drift-Promo-800x800.png">
+
 
 ## The Project
 WITTLE presents real experiences from people suffering anxiety and depression. Their stories are portrayed in short animations and casual, web-based games that can be played on any device. No downloading needed, and they’re all free at [wittle.ca](http://www.wittle.ca)
@@ -22,7 +20,7 @@ WITTLE raises awareness of how depression affects those who suffer from it. Depr
 <br>
 <br>
 ## Status
-**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video](https://youtu.be/5xekWrEH_vg){:target="_blank"} and [casual browser game](https://wittle-drift.netlify.com/){:target="_blank"}. 
+**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video](https://youtu.be/3ifcsAolC6c){:target="_blank"} and [casual browser game](https://wittle-drift.netlify.com/){:target="_blank"}. 
 <br>
 <br>
 ## Seeking Stories

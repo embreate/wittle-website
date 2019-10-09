@@ -7,7 +7,7 @@ isInNav: true
 
 <section class="section">
   <div class="columns content is-centered">
-    <div class="column is-half has-text-centered">
+    <div class="column is-half-tablet is-one-third-desktop has-text-centered">
       <h1 class="title is-1 is-uppercase has-text-black">{{page.title}}</h1>
       <p>Wittle is in the prototype phase with the plan to create two stories based on real life experiences with depression.</p>
       <br>
@@ -16,7 +16,7 @@ isInNav: true
   <div class="columns is-centered">
     {% assign stories = site.stories | where: "internal", "true" | sort: 'date' | reverse %}
     {% for story in stories %}
-    <div class="column is-half">
+    <div class="column is-half-tablet is-one-third-desktop">
       <div class="card">
         <div class="card-image">
           <figure class="image">
@@ -32,8 +32,15 @@ isInNav: true
           <p>{{story.description}}</p>
           <br>
           <p>
-            <a href="{{story.link.url}}" target="_blank" class="button is-info is-rounded">
-              {{story.link.text}}
+            {% for link in story.links %}
+            <a href="{{link.url}}" target="_blank" class="button is-info is-rounded m-r-10">
+              <i class="fas {{link.icon}} m-r-10"></i>
+              {{link.text}}
+            </a>
+            {% endfor %}
+            <a href="{{ story.url | relative_url }}" class="button is-info is-rounded m-r-10">
+              More <i class="fas fa-chevron-right m-l-10"></i>
+              
             </a>
           </p>
         </div>

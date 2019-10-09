@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-centered">
+      <div class="card">
+        
+        <div class="card-image">
+          <figure class="image">
+              <img src="{{ page.image  | absolute_url }}">
+          </figure>
+        </div>
+        
+        <div class="card-content">
+          <h5 class="title is-4">{{page.title}}</h5>
+          <p>{{page.description}}</p>
+          <br>
+          
+          <nav class="level">
+            <div class="level-left">
+              <div class="level-item">
+                {% for link in page.links %}
+                <a href="{{link.url}}" target="_blank" class="button is-info is-rounded m-r-10">
+                  <i class="fas {{link.icon}} m-r-10"></i>
+                  {{link.text}}
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="level-right">
+              <div class="level-item">
+                {% include social-share.html %}
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>    
+
+<section class="section">
+  <div class="columns is-centered">
+    <div class="column is-half has-text-centered content">
+      {{page.content}}
+    </div>
+  </div>
+</section> 
+
+
+
+<!-- Related Stories -->
+<section class="section">
+  <div class="container has-text-centered">
+    <h3 class="title is-2">Related Posts</h3>
+    <div class="columns is-centered">
+      
+      {% for story in site.stories limit: 3 %}
+      <div class="column has-text-centered">
+        <div class="card">
+          
+          <div class="card-image">
+            <figure class="image">
+                <img src="{{ story.image  | absolute_url }}">
+            </figure>
+          </div>
+          
+          <div class="card-content">
+            
+            <h5 class="title is-4">
+              <a href="{{ story.url | relative_url }}">
+                {{story.title}}
+              </a>
+            </h5>
+            
+            <p>{{story.description}}</p>
+            <br>
+            <p>
+              <a href="{{story.link.url}}" target="_blank" class="button is-info is-rounded">
+                {{story.link.text}}
+              </a>
+            </p>
+          </div>
+        </div><!--end .card-->
+      </div><!--end .column-->      
+      {%endfor%}
+    </div>
+
+  </div>
+</section>
