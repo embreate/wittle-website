@@ -1,5 +1,5 @@
 ---
-title: 'The Party by Erin'
+title: The Party by Erin
 date: 2019-09-11 20:50:00 Z
 categories:
 - Game
@@ -12,8 +12,7 @@ link:
   url: 
 links:
 - text: Coming Soon
-  url: #
-
+  url: 
 image: "/uploads/the-party/the-party-poster.JPG"
 ---
 
