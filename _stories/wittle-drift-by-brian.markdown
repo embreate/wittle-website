@@ -15,7 +15,7 @@ links:
   url: https://youtu.be/3ifcsAolC6c
   icon: fa-video
 - text: Play
-  url: https://drift.wittle.ca
+  url: http://drift.wittle.ca
   icon: fa-joystick
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---

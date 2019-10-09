@@ -19,7 +19,7 @@ WITTLE raises awareness of how depression affects those who suffer from it. Depr
 <br>
 <br>
 ## Status
-**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video](https://youtu.be/3ifcsAolC6c){:target="_blank"} and [casual browser game](https://wittle-drift.netlify.com/){:target="_blank"}. 
+**Oct 10th, 2019** Launched the first story by Brian, titled DRIFT which can be experienced as a [short animated video](https://youtu.be/3ifcsAolC6c){:target="_blank"} and [casual browser game](https://drift.wittle.ca/){:target="_blank"}. 
 <br>
 <br>
 ## Seeking Stories
