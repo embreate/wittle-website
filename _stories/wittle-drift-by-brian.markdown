@@ -5,7 +5,8 @@ categories:
 - Game
 internal: true
 layout: story-wittle
-description: Brian's depression made him feel as if he was disloacted from his body and the people around him.
+description: Brian's depression made him feel as if he was disloacted from his body
+  and the people around him.
 link:
   text: Play the Game
   url: https://wittle-drift.netlify.com
@@ -16,7 +17,6 @@ links:
 - text: Play
   url: https://drift.wittle.ca
   icon: fa-joystick
-
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
 
