@@ -5,7 +5,7 @@ categories:
 - Game
 internal: true
 layout: story-wittle
-description: Erin finds herself treading water for her life at get together of close
+description: Erin finds herself treading water for her life at a get together of close
   friends.
 link:
   text: Coming Soon
@@ -13,13 +13,17 @@ link:
 links:
 - text: Coming Soon
   url: 
-image: "/uploads/the-party/the-party-poster.JPG"
+image: "/uploads/the-party/the-party-poster.jpg"
 ---
 
 ## Feedback
-Wittle.ca is currently in the prototyping phase and we're looking for feedback on the videos and games. After watching and playing the content we'd greatly appreciate it if you'd provide your feedback on what you experienced. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9).
+Wittle.ca is currently in the prototype phase and we're looking for feedback we can take into the next phase of the project. Your comments will help inform our production plans which are currently in development. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9). 
 
 ## The Story
+Erin was always extremely social especially around her family and friends. One evening she found herself at a gathering of acquaintances feeling isolated and wanting nothing more than to leave. Her story explores her experience navigating new and unusual feelings in a social setting.  
+
+COMING SOON - FALL 2019
+
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-02-800x800.jpg">
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-04-800x800.jpg">
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-05-800x800.jpg">
@@ -28,10 +32,10 @@ Wittle.ca is currently in the prototyping phase and we're looking for feedback o
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-08-800x800.jpg">
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-01-800x800.jpg">
 
-
-
 ## The Game
-A fun house party triggers a panic attack in Erin who can’t stop crying. Players help Erin climb out of a giant beer bottle and dodge her falling tears so she doesn’t drown.
+A fun house party triggers a panic attack in Erin that brings an onslaught of tears. Players help Erin leap above the rising waters to safety though only to find Erin in new social situations she wants to avoid. It’s up to you to help Erin get through a terrifying night of new experiences.   
+
+COMING SOON - FALL 2019
 
 <img src="{{site.baseurl}}/uploads/the-party/the-party-game-800x800.jpg">
 <img src="{{site.baseurl}}/uploads/the-party/the-party-story-03-800x800.jpg">

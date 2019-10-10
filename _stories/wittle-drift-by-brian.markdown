@@ -21,7 +21,7 @@ image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
 
 ## Feedback
-Wittle.ca is currently in the prototyping phase and we're looking for feedback on the videos and games. After watching and playing the content we'd greatly appreciate it if you'd provide your feedback on what you experienced. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9).
+Wittle.ca is currently in the prototype phase and we're looking for feedback we can take into the next phase of the project. Your comments will help inform our production plans which are currently in development. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9). 
 
 ## The Video
 In Brian's story he talks about how depression made him feel dislocated from his body and the people around him. You can watch his story on [YouTube](https://youtu.be/3ifcsAolC6c). 
