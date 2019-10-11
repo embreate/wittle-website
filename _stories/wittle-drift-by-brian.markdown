@@ -20,9 +20,6 @@ links:
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
 
-## Feedback Wanted
-Wittle.ca is currently in the prototype phase and we're looking for feedback we can take into the next phase of the project. Your comments will help inform our production plans which are currently in development. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9). 
-
 <h2 id="video">The Video</h2>
 
 <img src="{{site.baseurl}}/uploads/index/brian-video-promo-800x800.jpg">

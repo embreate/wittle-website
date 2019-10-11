@@ -16,9 +16,6 @@ links:
 image: "/uploads/the-party/the-party-poster.jpg"
 ---
 
-## Feedback
-Wittle.ca is currently in the prototype phase and we're looking for feedback we can take into the next phase of the project. Your comments will help inform our production plans which are currently in development. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9). 
-
 ## The Story
 Erin was always extremely social especially around her family and friends. One evening she found herself at a gathering of acquaintances feeling isolated and wanting nothing more than to leave. Her story explores her experience navigating new and unusual feelings in a social setting.  
 
