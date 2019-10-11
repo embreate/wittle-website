@@ -3,7 +3,8 @@ title: About
 date: 2019-07-22 17:49:00 Z
 isInNav: true
 layout: page
-description: Real stories about depression and anxiety transformed into animations & games.
+description: Real stories about depression and anxiety transformed into animations
+  & games.
 ---
 
 <img src="{{site.baseurl}}/uploads/drift/Drift-Promo-800x800.png">
