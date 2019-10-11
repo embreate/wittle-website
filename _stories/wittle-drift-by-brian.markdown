@@ -15,15 +15,20 @@ links:
   url: https://youtu.be/3ifcsAolC6c
   icon: fa-video
 - text: Play
-  url: http://drift.wittle.ca
+  url: wittle-drift-by-brian.html#game
   icon: fa-joystick
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
 
-## Feedback
+## Feedback Wanted
 Wittle.ca is currently in the prototype phase and we're looking for feedback we can take into the next phase of the project. Your comments will help inform our production plans which are currently in development. Feedback can be provided via our [Google Form](https://forms.gle/GrhbAUCedm2HG7xJ9). 
 
-## The Video
+<h2 id="video">The Video</h2>
+
+<img src="{{site.baseurl}}/uploads/index/brian-video-promo-800x800.jpg">
+<p class="is-size-4 has-text-weight-light">
+A short animation exploring a day in the life of Brian whose depression makes him feel dislocated from life.
+</p>
 In Brian's story he talks about how depression made him feel dislocated from his body and the people around him. You can watch his story on [YouTube](https://youtu.be/3ifcsAolC6c). 
 
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-00.jpg">
@@ -33,10 +38,18 @@ In Brian's story he talks about how depression made him feel dislocated from his
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3ifcsAolC6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
-## The Game
-In the game adaptation of Brian's story players are challenged to navigate his disembodied head around lifes everyday challenges. You can [play his game now](https://drift.wittle.ca). At this time it is only available on Chrome browsers.  
+<h2 id="game">The Game</h2>
+<img src="{{site.baseurl}}/uploads/index/brian-game-promo-800x800.jpg">
+<p class="is-size-4 has-text-weight-light">
+Help Brian through his day by navigating his disembodied head around lifes obstacles.
+</p>
+<p>
+  <a class="button is-info is-rounded" href="https://forms.gle/QbHyTiv3RgB8tzhD6">
+    Register to Demo the Alpha Game
+  </a>
+</p>
 
-The game follows the exact narrative flow as the animated video, the difference is that you the player must navigate the obstacles between events. 
+In the game adaptation of Brian's story players are challenged to navigate his disembodied head around lifes everyday challenges. 
 
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-01.jpg">
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-04.jpg">

@@ -3,10 +3,10 @@ title: About
 date: 2019-07-22 17:49:00 Z
 isInNav: true
 layout: page
-description: Real stories about depression and anxiety transformed into animated games
+description: Real stories about depression and anxiety transformed into animations & games.
 ---
 
-<img src="{{site.baseurl}}/uploads/Drift-Promo-800x800.png">
+<img src="{{site.baseurl}}/uploads/drift/Drift-Promo-800x800.png">
 
 
 ## The Project
@@ -32,7 +32,7 @@ Would you like to share your own experience living with depression? Drop us a li
 ## Our Team
 Wittle is produced by [Embreate](https://embreate.com/){:target="_blank"} and [Plai Factory](https://www.plaifactory.com/){:target="_blank"} in collaboration with [CAMH](https://www.camh.ca/){:target="_blank"} and the support of the [Telus Fund](https://telusfund.ca/){:target="_blank"}. 
 
-If you're interested in joining the WITTLE team, please review our [project development page](http://makerboost.embreate.com/projects/wittle.html){:target="_blank"} for opportunities.  
+If you're interested in joining the WITTLE team, please review our Maker Boost [project development page](http://makerboost.embreate.com/projects/wittle.html){:target="_blank"} for opportunities.  
 <br>
 <br>
 

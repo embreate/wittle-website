@@ -55,7 +55,7 @@ layout: default
 <!-- Related Stories -->
 <section class="section">
   <div class="container has-text-centered">
-    <h3 class="title is-2">Related Posts</h3>
+    <h3 class="title is-2">Related Stories</h3>
     <div class="columns is-centered">
       
       {% for story in site.stories limit: 3 %}
@@ -79,7 +79,7 @@ layout: default
             <p>{{story.description}}</p>
             <br>
             <p>
-              <a href="{{story.link.url}}" target="_blank" class="button is-info is-rounded">
+              <a href="{{story.link.url}}" class="button is-info is-rounded">
                 {{story.link.text}}
               </a>
             </p>
