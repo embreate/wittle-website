@@ -38,6 +38,7 @@ Erin was always extremely social especially around her family and friends. One e
 <br>
 
 <h2 id="game">The Game</h2>
+<img src="{{site.baseurl}}/uploads/the-party/the-party-game-800x800.jpg">
 
 <p class="is-size-4 has-text-weight-light">
 Help Erin escape a party where her depression has manifested into a deadly torent of tears. 
@@ -50,6 +51,8 @@ Help Erin escape a party where her depression has manifested into a deadly toren
 
 A fun house party triggers a panic attack in Erin that brings an onslaught of tears. Players help Erin leap above the rising waters to safety though only to find Erin in new social situations she wants to avoid. It’s up to you to help Erin get through a terrifying night of new experiences.   
 
-<img src="{{site.baseurl}}/uploads/the-party/the-party-game-800x800.jpg">
-<img src="{{site.baseurl}}/uploads/the-party/the-party-story-03-800x800.jpg">
-<img src="{{site.baseurl}}/uploads/the-party/the-party-800x800.jpg">
+<figure class="image is-16by9" style="margin:0px">
+<iframe class="has-ratio" width="100%" height="auto" src="https://youtube.com/embed/QHFjpLYBdzo" allowfullscreen></iframe>
+</figure>
+
+
