@@ -5,13 +5,14 @@ categories:
 - Game
 internal: true
 layout: story-wittle
-description: Erin finds herself treading water for her life at a get together of close friends.
+description: Erin finds herself treading water for her life at a get together of close
+  friends.
 links:
 - text: Watch
-  url: /stories/wittle-the-party-by-Erin.html#video
+  url: "/stories/wittle-the-party-by-Erin.html#video"
   icon: fa-video
 - text: Play
-  url: /stories/wittle-the-party-by-Erin.html#game
+  url: "/stories/wittle-the-party-by-Erin.html#game"
   icon: fa-joystick
 image: "/uploads/the-party/the-party-poster.jpg"
 ---

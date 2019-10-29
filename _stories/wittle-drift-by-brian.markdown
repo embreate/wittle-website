@@ -9,10 +9,10 @@ description: Brian's depression made him feel as if he was disloacted from his b
   and the people around him.
 links:
 - text: Watch
-  url: /stories/wittle-drift-by-brian.html#video
+  url: "/stories/wittle-drift-by-brian.html#video"
   icon: fa-video
 - text: Play
-  url: /stories/wittle-drift-by-brian.html#game
+  url: "/stories/wittle-drift-by-brian.html#game"
   icon: fa-joystick
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
