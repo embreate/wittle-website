@@ -7,22 +7,22 @@ internal: true
 layout: story-wittle
 description: Brian's depression made him feel as if he was disloacted from his body
   and the people around him.
-link:
-  text: Play the Game
-  url: https://wittle-drift.netlify.com
 links:
 - text: Watch
-  url: https://youtu.be/3ifcsAolC6c
+  url: /stories/wittle-drift-by-brian.html#video
   icon: fa-video
 - text: Play
-  url: wittle-drift-by-brian.html#game
+  url: /stories/wittle-drift-by-brian.html#game
   icon: fa-joystick
 image: "/uploads/drift/Drift-Poster-800x800.jpg"
 ---
 
 <h2 id="video">The Video</h2>
+<figure class="image is-1by1" style="margin:0px">
+<iframe class="has-ratio" width="100%" height="auto" src="https://youtube.com/embed/3ifcsAolC6c" allowfullscreen></iframe>
+</figure>
+<br>
 
-<img src="{{site.baseurl}}/uploads/index/brian-video-promo-800x800.jpg">
 <p class="is-size-4 has-text-weight-light">
 A short animation exploring a day in the life of Brian whose depression makes him feel dislocated from life.
 </p>
@@ -31,10 +31,13 @@ In Brian's story he talks about how depression made him feel dislocated from his
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-00.jpg">
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-05.jpg">
 <img src="{{site.baseurl}}/uploads/drift/Drift-Story-02.jpg">
+<img src="{{site.baseurl}}/uploads/index/brian-video-promo-800x800.jpg">
 
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3ifcsAolC6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
+<br>
+<br>
 <h2 id="game">The Game</h2>
 <img src="{{site.baseurl}}/uploads/index/brian-game-promo-800x800.jpg">
 <p class="is-size-4 has-text-weight-light">
