@@ -19,7 +19,7 @@ image: "/uploads/the-party/the-party-poster.jpg"
 
 <h2 id="video">The Video</h2>
 <figure class="image is-1by1" style="margin:0px">
-<iframe class="has-ratio" width="100%" height="auto" src="https://youtube.com/embed/Wx_CHXNorhI" allowfullscreen></iframe>
+<iframe class="has-ratio" width="100%" height="auto" src="https://youtube.com/embed/UPFRXMPfEQs" allowfullscreen></iframe>
 </figure>
 <br>
 <p class="is-size-4 has-text-weight-light">
